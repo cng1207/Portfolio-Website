@@ -1,0 +1,382 @@
+{
+  "projects": [
+    {
+      "id": "reporting-audit-pipeline",
+      "title": "Reporting Audit Pipeline & Dashboard",
+      "description": "Operational dashboard for critical Reporting metrics",
+      "longDescription": "Building the Reporting Metric Audit Dashboard serves as an essential data quality monitoring tool for the Business Intelligence team. By leveraging statistical methods to detect anomalies in key business metrics, the dashboard enables Engineers to identify and address data quality issues before they reach stakeholders. The implementation of the standard deviation approach provides high confidence in anomaly detection while minimizing false positives, addressing the core business need that arose from an escalation incident.",
+      "thumbnailUrl": "/images/thumbnails/customer-analytics-dashboard.jpeg",
+      "imageUrls": [
+        "/images/thumbnails/customer-analytics-dashboard.jpeg",
+        "/images/thumbnails/Marketing Audit flow.jpeg",
+        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
+      ],
+      "technologies": [
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "#336791",
+          "icon": "🗃️",
+          "category": "database"
+        },
+        {
+          "id": "quicksight",
+          "name": "Quicksight",
+          "color": "#E97627",
+          "icon": "📊",
+          "category": "visualization"
+        },
+        {
+          "id": "aws",
+          "name": "AWS",
+          "color": "#FF9900",
+          "icon": "☁️",
+          "category": "cloud"
+        },
+        {
+          "id": "redshift",
+          "name": "Redshift",
+          "color": "#336791",
+          "icon": "🐘",
+          "category": "database"
+        }
+      ],
+      "category": {
+        "id": "dashboards",
+        "name": "Dashboard & Visualization",
+        "description": "Interactive dashboards and data visualization projects",
+        "order": 1
+      },
+      "featured": true,
+      "createdAt": "2025-01-15T00:00:00.000Z",
+      "updatedAt": "2025-01-15T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "etl-data-pipeline",
+      "title": "Automated ETL Data Pipeline",
+      "description": "Scalable data pipeline processing 10M+ records daily with automated quality checks",
+      "longDescription": "Designed and implemented a robust ETL pipeline using Apache Airflow and Python to process over 10 million records daily from multiple data sources. Built comprehensive data quality checks, error handling, and monitoring systems. The pipeline includes data validation, transformation logic, and automated alerts for data anomalies. Reduced manual data processing time by 95% and improved data accuracy to 99.9%.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=450&fit=crop",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
+      ],
+      "technologies": [
+        {
+          "id": "airflow",
+          "name": "Apache Airflow",
+          "color": "#017CEE",
+          "icon": "🌊",
+          "category": "pipeline"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "color": "#3776AB",
+          "icon": "🐍",
+          "category": "analytics"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "#336791",
+          "icon": "🗃️",
+          "category": "database"
+        },
+        {
+          "id": "aws",
+          "name": "AWS",
+          "color": "#FF9900",
+          "icon": "☁️",
+          "category": "cloud"
+        }
+      ],
+      "category": {
+        "id": "pipelines",
+        "name": "Data Pipelines",
+        "description": "ETL/ELT pipelines and data engineering projects",
+        "order": 2
+      },
+      "demoUrl": "https://pipeline-demo.example.com",
+      "sourceUrl": "https://github.com/user/etl-pipeline",
+      "featured": true,
+      "createdAt": "2023-11-20T00:00:00.000Z",
+      "updatedAt": "2024-01-10T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "financial-reporting-system",
+      "title": "Financial Reporting & KPI System",
+      "description": "Automated financial reporting system with real-time KPI tracking and variance analysis",
+      "longDescription": "Developed a comprehensive financial reporting system that automates monthly, quarterly, and annual financial reports. Built complex SQL queries for P&L analysis, budget variance tracking, and KPI calculations. Implemented automated data validation, reconciliation processes, and exception reporting. The system reduced report generation time from 5 days to 2 hours and improved accuracy by eliminating manual errors.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
+      ],
+      "technologies": [
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "#336791",
+          "icon": "🗃️",
+          "category": "database"
+        },
+        {
+          "id": "powerbi",
+          "name": "Power BI",
+          "color": "#F2C811",
+          "icon": "📈",
+          "category": "visualization"
+        },
+        {
+          "id": "excel",
+          "name": "Excel/VBA",
+          "color": "#217346",
+          "icon": "📊",
+          "category": "analytics"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "color": "#29B5E8",
+          "icon": "❄️",
+          "category": "database"
+        }
+      ],
+      "category": {
+        "id": "reporting",
+        "name": "Financial Reporting",
+        "description": "Financial analysis and reporting systems",
+        "order": 3
+      },
+      "demoUrl": "https://financial-reports.example.com",
+      "sourceUrl": "https://github.com/user/financial-reporting",
+      "featured": true,
+      "createdAt": "2023-09-10T00:00:00.000Z",
+      "updatedAt": "2023-12-15T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "operational-excellence-dashboard",
+      "title": "Operational Excellence Dashboard",
+      "description": "Real-time operational metrics dashboard tracking SLAs, performance, and efficiency KPIs",
+      "longDescription": "Created a comprehensive operational excellence dashboard monitoring key business processes and SLAs. Built automated data collection from multiple systems, real-time alerting for SLA breaches, and trend analysis for operational improvements. Implemented process efficiency metrics, resource utilization tracking, and predictive analytics for capacity planning. Helped reduce operational incidents by 40% and improved SLA compliance to 99.5%.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=450&fit=crop",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop"
+      ],
+      "technologies": [
+        {
+          "id": "tableau",
+          "name": "Tableau",
+          "color": "#E97627",
+          "icon": "📊",
+          "category": "visualization"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "#336791",
+          "icon": "🗃️",
+          "category": "database"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "color": "#3776AB",
+          "icon": "🐍",
+          "category": "analytics"
+        },
+        {
+          "id": "grafana",
+          "name": "Grafana",
+          "color": "#F46800",
+          "icon": "📈",
+          "category": "monitoring"
+        }
+      ],
+      "category": {
+        "id": "operations",
+        "name": "Operational Excellence",
+        "description": "Operational metrics and process improvement projects",
+        "order": 4
+      },
+      "demoUrl": "https://ops-dashboard.example.com",
+      "sourceUrl": "https://github.com/user/ops-excellence",
+      "featured": true,
+      "createdAt": "2023-08-05T00:00:00.000Z",
+      "updatedAt": "2023-11-30T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "data-warehouse-optimization",
+      "title": "Data Warehouse Performance Optimization",
+      "description": "Optimized data warehouse queries reducing runtime by 80% and improving dashboard performance",
+      "longDescription": "Led a comprehensive data warehouse optimization project focusing on query performance, indexing strategies, and data modeling improvements. Analyzed slow-running queries, implemented partitioning strategies, and redesigned dimensional models for better performance. Created automated monitoring for query performance and established best practices for SQL development. Achieved 80% reduction in average query runtime and improved dashboard load times from 2 minutes to 15 seconds.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=450&fit=crop",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=675&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop"
+      ],
+      "technologies": [
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "#336791",
+          "icon": "🗃️",
+          "category": "database"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "color": "#29B5E8",
+          "icon": "❄️",
+          "category": "database"
+        },
+        {
+          "id": "dbt",
+          "name": "dbt",
+          "color": "#FF694B",
+          "icon": "🔧",
+          "category": "transformation"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "color": "#3776AB",
+          "icon": "🐍",
+          "category": "analytics"
+        }
+      ],
+      "category": {
+        "id": "optimization",
+        "name": "Performance Optimization",
+        "description": "Database and query optimization projects",
+        "order": 5
+      },
+      "sourceUrl": "https://github.com/user/dw-optimization",
+      "featured": false,
+      "createdAt": "2023-06-12T00:00:00.000Z",
+      "updatedAt": "2023-10-20T00:00:00.000Z",
+      "status": "active"
+    }
+  ],
+  "categories": [
+    {
+      "id": "dashboards",
+      "name": "Dashboard & Visualization",
+      "description": "Interactive dashboards and data visualization projects",
+      "order": 1
+    },
+    {
+      "id": "pipelines",
+      "name": "Data Pipelines",
+      "description": "ETL/ELT pipelines and data engineering projects",
+      "order": 2
+    },
+    {
+      "id": "reporting",
+      "name": "Financial Reporting",
+      "description": "Financial analysis and reporting systems",
+      "order": 3
+    },
+    {
+      "id": "operations",
+      "name": "Operational Excellence",
+      "description": "Operational metrics and process improvement projects",
+      "order": 4
+    },
+    {
+      "id": "optimization",
+      "name": "Performance Optimization",
+      "description": "Database and query optimization projects",
+      "order": 5
+    }
+  ],
+  "technologies": [
+    {
+      "id": "sql",
+      "name": "SQL",
+      "color": "#336791",
+      "icon": "🗃️",
+      "category": "database"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "color": "#3776AB",
+      "icon": "🐍",
+      "category": "analytics"
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "color": "#E97627",
+      "icon": "📊",
+      "category": "visualization"
+    },
+    {
+      "id": "powerbi",
+      "name": "Power BI",
+      "color": "#F2C811",
+      "icon": "📈",
+      "category": "visualization"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "color": "#336791",
+      "icon": "🐘",
+      "category": "database"
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "color": "#29B5E8",
+      "icon": "❄️",
+      "category": "database"
+    },
+    {
+      "id": "airflow",
+      "name": "Apache Airflow",
+      "color": "#017CEE",
+      "icon": "🌊",
+      "category": "pipeline"
+    },
+    {
+      "id": "dbt",
+      "name": "dbt",
+      "color": "#FF694B",
+      "icon": "🔧",
+      "category": "transformation"
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "color": "#FF9900",
+      "icon": "☁️",
+      "category": "cloud"
+    },
+    {
+      "id": "excel",
+      "name": "Excel/VBA",
+      "color": "#217346",
+      "icon": "📊",
+      "category": "analytics"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "color": "#F46800",
+      "icon": "📈",
+      "category": "monitoring"
+    }
+  ]
+}

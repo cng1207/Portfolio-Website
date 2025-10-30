@@ -1,0 +1,79 @@
+{
+  "name": "Portfolio Showcase",
+  "short_name": "Portfolio",
+  "description": "A Netflix-style portfolio website showcasing personal projects",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["portfolio", "showcase", "projects"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-apple-touch.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Portfolio Showcase - Desktop View"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Portfolio Showcase - Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Projects",
+      "short_name": "Browse",
+      "description": "Browse all portfolio projects",
+      "url": "/?shortcut=browse",
+      "icons": [
+        {
+          "src": "/icon-browse.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Search Projects",
+      "short_name": "Search",
+      "description": "Search for specific projects",
+      "url": "/?shortcut=search",
+      "icons": [
+        {
+          "src": "/icon-search.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

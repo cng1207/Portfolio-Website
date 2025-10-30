@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Analytics Engineering Portfolio - Data-Driven Solutions</title>
+    <meta name="title" content="Analytics Engineering Portfolio - Data-Driven Solutions" />
+    <meta name="description" content="Showcasing SQL expertise, dashboard creation, data pipelines, and operational excellence projects in a Netflix-style interface." />
+    <meta name="keywords" content="portfolio, projects, showcase, netflix-style, responsive, web development" />
+    <meta name="author" content="Portfolio Showcase" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-showcase.com/" />
+    <meta property="og:title" content="Portfolio Showcase - Netflix-style Project Gallery" />
+    <meta property="og:description" content="A modern, responsive portfolio website showcasing personal projects in a Netflix-style interface." />
+    <meta property="og:image" content="/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://portfolio-showcase.com/" />
+    <meta property="twitter:title" content="Portfolio Showcase - Netflix-style Project Gallery" />
+    <meta property="twitter:description" content="A modern, responsive portfolio website showcasing personal projects in a Netflix-style interface." />
+    <meta property="twitter:image" content="/twitter-image.jpg" />
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/Portfolio-Website/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    
+    <!-- Critical CSS (inline for performance) -->
+    <style>
+      /* Critical above-the-fold styles */
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #000;
+        color: #fff;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+      
+      /* Loading spinner for initial load */
+      .loading-spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40px;
+        height: 40px;
+        border: 3px solid #333;
+        border-top: 3px solid #fff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
+      }
+      
+      /* Hide loading spinner when app loads */
+      .app-loaded .loading-spinner {
+        display: none;
+      }
+    </style>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Portfolio Showcase",
+      "description": "A Netflix-style portfolio website showcasing personal projects",
+      "url": "https://portfolio-showcase.com",
+      "author": {
+        "@type": "Person",
+        "name": "Portfolio Owner"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://portfolio-showcase.com/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/Portfolio-Website/assets/index-BKPshlzw.js"></script>
+    <link rel="modulepreload" crossorigin href="/Portfolio-Website/assets/vendor-D5zp-5y4.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio-Website/assets/utils-DRrSijip.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio-Website/assets/components-B2AhM52p.js">
+    <link rel="stylesheet" crossorigin href="/Portfolio-Website/assets/components-BlPdW4xo.css">
+    <link rel="stylesheet" crossorigin href="/Portfolio-Website/assets/index-q4sBgHRi.css">
+  </head>
+  <body>
+    <!-- Loading indicator -->
+    <div class="loading-spinner" id="initial-loading"></div>
+    
+    <!-- Main app container -->
+    <div id="root"></div>
+    
+    <!-- Remove loading spinner when app loads -->
+    <script>
+      window.addEventListener('load', function() {
+        document.body.classList.add('app-loaded');
+        const loadingSpinner = document.getElementById('initial-loading');
+        if (loadingSpinner) {
+          loadingSpinner.remove();
+        }
+      });
+    </script>
+    
+    <!-- Main application script -->
+  </body>
+</html>

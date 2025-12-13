@@ -107,10 +107,10 @@
       "status": "active"
     },
     {
-      "id": "financial-reporting-system",
-      "title": "Financial Reporting & KPI System",
-      "description": "Automated financial reporting system with real-time KPI tracking and variance analysis",
-      "longDescription": "Developed a comprehensive financial reporting system that automates monthly, quarterly, and annual financial reports. Built complex SQL queries for P&L analysis, budget variance tracking, and KPI calculations. Implemented automated data validation, reconciliation processes, and exception reporting. The system reduced report generation time from 5 days to 2 hours and improved accuracy by eliminating manual errors.",
+      "id": "return-on-investment-optimizer",
+      "title": "Return on Investment Optimizer",
+      "description": "Created a Return on Investment Optimizer dashboard influencing millions in Marketing Spend",
+      "longDescription": "Worked with Product and Engineering teams across AWS to gather and institute a Data pipeline feeding into the Return on Investment Optimizer. Built and automated complex SQL queries for both Macro economic and Marketing funnel analysis. Implemented automated data validation, reconciliation processes, and exception reporting. This optimizer utilized by Finance teams influenced marketing funnel allocation for FY26.",
       "thumbnailUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop",
       "imageUrls": [
         "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=675&fit=crop",
@@ -126,8 +126,8 @@
           "category": "database"
         },
         {
-          "id": "powerbi",
-          "name": "Power BI",
+          "id": "quicksuite",
+          "name": "Quicksuite",
           "color": "#F2C811",
           "icon": "📈",
           "category": "visualization"
@@ -140,8 +140,8 @@
           "category": "analytics"
         },
         {
-          "id": "snowflake",
-          "name": "Snowflake",
+          "id": "redshift",
+          "name": "Redshift",
           "color": "#29B5E8",
           "icon": "❄️",
           "category": "database"
@@ -149,17 +149,10 @@
       ],
       "category": {
         "id": "reporting",
-        "name": "Financial Reporting",
-        "description": "Financial analysis and reporting systems",
+        "name": "Marketing Reporting",
+        "description": "Marketing analysis and reporting systems",
         "order": 3
-      },
-      "demoUrl": "https://financial-reports.example.com",
-      "sourceUrl": "https://github.com/user/financial-reporting",
-      "featured": true,
-      "createdAt": "2023-09-10T00:00:00.000Z",
-      "updatedAt": "2023-12-15T00:00:00.000Z",
-      "status": "active"
-    },
+      }
     {
       "id": "operational-excellence-dashboard",
       "title": "Operational Excellence Dashboard",

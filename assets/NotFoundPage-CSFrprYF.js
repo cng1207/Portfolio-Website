@@ -1,0 +1,2 @@
+import{j as o}from"./components-C4ikjimr.js";import{L as s}from"./vendor-CEPHub2d.js";import"./utils-CZnQnpmT.js";const e=()=>o.jsx("div",{className:"not-found-page",children:o.jsxs("div",{className:"not-found-content",children:[o.jsx("h1",{children:"404"}),o.jsx("h2",{children:"Page Not Found"}),o.jsx("p",{children:"Sorry, the page you are looking for doesn't exist."}),o.jsx(s,{to:"/",className:"home-link",children:"Go Back Home"})]})});export{e as default};
+//# sourceMappingURL=NotFoundPage-CSFrprYF.js.map

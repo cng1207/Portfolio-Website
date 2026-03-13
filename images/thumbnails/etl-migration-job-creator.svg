@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg7)"/>
+  <!-- Terminal window -->
+  <rect x="120" y="120" width="560" height="220" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="120" y="120" width="560" height="30" rx="10" fill="#21262d"/>
+  <circle cx="145" cy="135" r="6" fill="#f85149"/>
+  <circle cx="165" cy="135" r="6" fill="#d29922"/>
+  <circle cx="185" cy="135" r="6" fill="#3fb950"/>
+  <text x="400" y="139" text-anchor="middle" fill="#8b949e" font-size="12" font-family="monospace">etl-migration-tool</text>
+  <!-- Terminal content -->
+  <text x="140" y="175" fill="#3fb950" font-size="13" font-family="monospace">$ ./migrate --profile legacy_job</text>
+  <text x="140" y="200" fill="#8b949e" font-size="12" font-family="monospace">Generating YAML config...</text>
+  <text x="140" y="220" fill="#8b949e" font-size="12" font-family="monospace">Building SQL transformations...</text>
+  <text x="140" y="240" fill="#8b949e" font-size="12" font-family="monospace">Creating Airflow DAG definition...</text>
+  <text x="140" y="260" fill="#8b949e" font-size="12" font-family="monospace">Resolving dependencies...</text>
+  <text x="140" y="285" fill="#3fb950" font-size="13" font-family="monospace">Migration complete</text>
+  <!-- Stats -->
+  <rect x="160" y="360" width="150" height="50" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+  <text x="235" y="385" text-anchor="middle" fill="#3fb950" font-size="16" font-family="monospace" font-weight="bold">Hundreds</text>
+  <text x="235" y="402" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">profiles migrated</text>
+  <rect x="330" y="360" width="150" height="50" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1"/>
+  <text x="405" y="385" text-anchor="middle" fill="#d29922" font-size="16" font-family="monospace" font-weight="bold">20+</text>
+  <text x="405" y="402" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">engineers adopted</text>
+  <rect x="500" y="360" width="150" height="50" rx="6" fill="#161b22" stroke="#f85149" stroke-width="1"/>
+  <text x="575" y="385" text-anchor="middle" fill="#f85149" font-size="16" font-family="monospace" font-weight="bold">~1hr</text>
+  <text x="575" y="402" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">saved per profile</text>
+  <text x="400" y="55" text-anchor="middle" fill="#ffffff" font-size="22" font-family="sans-serif" font-weight="bold">ETL Migration Job Creator</text>
+  <text x="400" y="85" text-anchor="middle" fill="#3fb950" font-size="14" font-family="monospace">YAML · SQL · DAG Generation · Apache Airflow</text>
+</svg>

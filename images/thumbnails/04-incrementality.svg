@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f0e17"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg4)"/>
+  <!-- Treatment group bar -->
+  <rect x="200" y="140" width="160" height="200" rx="6" fill="#ff6b6b" opacity="0.8"/>
+  <text x="280" y="360" text-anchor="middle" fill="#ff6b6b" font-size="14" font-family="sans-serif" font-weight="bold">TREATMENT</text>
+  <!-- Control group bar -->
+  <rect x="440" y="200" width="160" height="140" rx="6" fill="#4ecdc4" opacity="0.8"/>
+  <text x="520" y="360" text-anchor="middle" fill="#4ecdc4" font-size="14" font-family="sans-serif" font-weight="bold">CONTROL</text>
+  <!-- Lift arrow -->
+  <line x1="380" y1="200" x2="380" y2="140" stroke="#ffe66d" stroke-width="3"/>
+  <polygon points="375,145 385,145 380,130" fill="#ffe66d"/>
+  <text x="380" y="125" text-anchor="middle" fill="#ffe66d" font-size="14" font-family="monospace" font-weight="bold">LIFT</text>
+  <!-- Greenlight reallocation callout -->
+  <rect x="180" y="385" width="440" height="40" rx="8" fill="#0f0e17" stroke="#2ecc71" stroke-width="2"/>
+  <text x="400" y="410" text-anchor="middle" fill="#2ecc71" font-size="14" font-family="monospace" font-weight="bold">GREENLIT: $XX M channel reallocation</text>
+  <text x="400" y="55" text-anchor="middle" fill="#ffffff" font-size="22" font-family="sans-serif" font-weight="bold">Incrementality Measurement</text>
+  <text x="400" y="85" text-anchor="middle" fill="#ff6b6b" font-size="14" font-family="monospace">Treatment/Control · Causal Inference · Spend Reallocation</text>
+</svg>

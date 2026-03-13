@@ -1,375 +1,194 @@
 {
   "projects": [
     {
-      "id": "reporting-audit-pipeline",
-      "title": "Reporting Audit Pipeline & Dashboard",
-      "description": "Operational dashboard for critical Reporting metrics",
-      "longDescription": "Building the Reporting Metric Audit Dashboard serves as an essential data quality monitoring tool for the Business Intelligence team. By leveraging statistical methods to detect anomalies in key business metrics, the dashboard enables Engineers to identify and address data quality issues before they reach stakeholders. The implementation of the standard deviation approach provides high confidence in anomaly detection while minimizing false positives, addressing the core business need that arose from an escalation incident.",
-      "thumbnailUrl": "/images/thumbnails/customer-analytics-dashboard.jpeg",
+      "id": "automated-pipeline-statistical-monitoring",
+      "title": "Automated Data Pipeline with Statistical Monitoring",
+      "description": "ETL pipeline with CDC fact tables, 3σ anomaly detection, and automated alerting",
+      "longDescription": "Designed an ETL pipeline to automate biweekly data ingestion from a centralized platform into a cloud data warehouse. Implemented a change-data-capture Fact table for daily delta logging and audit trails. Built a statistical anomaly detection layer using 3-standard-deviation thresholds (99.96% confidence intervals) to proactively flag data quality issues across key metrics. Integrated automated alarming mechanisms that trigger alerts when metrics breach threshold boundaries, enabling rapid incident response. Architected a solution balancing automated scheduling with manual override capabilities via a self-service data platform.",
+      "thumbnailUrl": "/images/thumbnails/automated-pipeline-statistical-monitoring.svg",
       "imageUrls": [
-        "/images/thumbnails/customer-analytics-dashboard.jpeg",
-        "/images/thumbnails/Marketing Audit flow.jpeg",
-        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
+        "/images/thumbnails/automated-pipeline-statistical-monitoring.svg"
       ],
       "technologies": [
-        {
-          "id": "sql",
-          "name": "SQL",
-          "color": "#336791",
-          "icon": "🗃️",
-          "category": "database"
-        },
-        {
-          "id": "quicksight",
-          "name": "Quicksight",
-          "color": "#E97627",
-          "icon": "📊",
-          "category": "visualization"
-        },
-        {
-          "id": "aws",
-          "name": "AWS",
-          "color": "#FF9900",
-          "icon": "☁️",
-          "category": "cloud"
-        },
-        {
-          "id": "redshift",
-          "name": "Redshift",
-          "color": "#336791",
-          "icon": "🐘",
-          "category": "database"
-        }
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+        { "id": "aws", "name": "AWS", "color": "#FF9900", "icon": "☁️", "category": "cloud" }
       ],
-      "category": {
-        "id": "dashboards",
-        "name": "Dashboard & Visualization",
-        "description": "Interactive dashboards and data visualization projects",
-        "order": 1
-      },
+      "category": { "id": "pipelines", "name": "Data Pipelines", "description": "ETL/ELT pipelines and data engineering projects", "order": 1 },
       "featured": true,
       "createdAt": "2025-01-15T00:00:00.000Z",
       "updatedAt": "2025-01-15T00:00:00.000Z",
       "status": "active"
     },
     {
-      "id": "etl-data-pipeline",
-      "title": "Automated ETL Data Pipeline",
-      "description": "Scalable data pipeline processing 10M+ records daily with automated quality checks",
-      "longDescription": "Designed and implemented a robust ETL pipeline using Apache Airflow and Python to process over 10 million records daily from multiple data sources. Built comprehensive data quality checks, error handling, and monitoring systems. The pipeline includes data validation, transformation logic, and automated alerts for data anomalies. Reduced manual data processing time by 95% and improved data accuracy to 99.9%.",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=450&fit=crop",
-      "imageUrls": [
-        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
-      ],
+      "id": "macro-optimizer",
+      "title": "Macro Optimizer — Market Classification Engine",
+      "description": "2×2 quadrant classification ranking markets by growth, opportunity, and revenue maturity",
+      "longDescription": "Consolidated 9 data sources into a unified country-level analytical dataset and applied a 2×2 quadrant classification framework ranking markets by opportunity size, growth trajectory, and revenue maturity. Business leaders used the output to prioritize geographic investments, shifting budget allocation from historical patterns to data-driven market potential scoring across awareness, consideration, conversion, and loyalty funnel stages.",
+      "thumbnailUrl": "/images/thumbnails/macro-optimizer.svg",
+      "imageUrls": ["/images/thumbnails/macro-optimizer.svg"],
       "technologies": [
-        {
-          "id": "airflow",
-          "name": "Apache Airflow",
-          "color": "#017CEE",
-          "icon": "🌊",
-          "category": "pipeline"
-        },
-        {
-          "id": "python",
-          "name": "Python",
-          "color": "#3776AB",
-          "icon": "🐍",
-          "category": "analytics"
-        },
-        {
-          "id": "sql",
-          "name": "SQL",
-          "color": "#336791",
-          "icon": "🗃️",
-          "category": "database"
-        },
-        {
-          "id": "aws",
-          "name": "AWS",
-          "color": "#FF9900",
-          "icon": "☁️",
-          "category": "cloud"
-        }
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "quicksight", "name": "QuickSight", "color": "#E97627", "icon": "📊", "category": "visualization" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" }
       ],
-      "category": {
-        "id": "pipelines",
-        "name": "Data Pipelines",
-        "description": "ETL/ELT pipelines and data engineering projects",
-        "order": 2
-      },
-      "demoUrl": "https://pipeline-demo.example.com",
-      "sourceUrl": "https://github.com/user/etl-pipeline",
+      "category": { "id": "analytics", "name": "Analytics & Classification", "description": "Data classification, segmentation, and analytical modeling", "order": 2 },
       "featured": true,
-      "createdAt": "2023-11-20T00:00:00.000Z",
-      "updatedAt": "2024-01-10T00:00:00.000Z",
+      "createdAt": "2024-10-01T00:00:00.000Z",
+      "updatedAt": "2025-01-10T00:00:00.000Z",
       "status": "active"
     },
     {
-      "id": "return-on-investment-optimizer",
-      "title": "Return on Investment Optimizer",
-      "description": "Created a Return on Investment Optimizer dashboard influencing millions in Marketing Spend",
-      "longDescription": "Worked with Product and Engineering teams across AWS to gather and institute a Data pipeline feeding into the Return on Investment Optimizer. Built and automated complex SQL queries for both Macro economic and Marketing funnel analysis. Implemented automated data validation, reconciliation processes, and exception reporting. This optimizer utilized by Finance teams influenced marketing funnel allocation for FY26.",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop",
-      "imageUrls": [
-        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=675&fit=crop"
-      ],
+      "id": "investment-analyzer",
+      "title": "Investment Analyzer — Marketing Channel Allocation & ROI Forecasting",
+      "description": "Interactive calculator for modeling channel spend scenarios and forecasting ROI outcomes",
+      "longDescription": "Built an interactive forecasting tool that enables users to model marketing channel investment scenarios and predict return on investment outcomes. The calculator ingests geo-level data mapped from 5+ source tables and lets stakeholders adjust spend inputs across channels to forecast pipeline, conversion, and revenue impact. Used to inform how $XXX million in marketing spend was allocated across channels and regions, shifting decisions from intuition-based to model-driven forecasting.",
+      "thumbnailUrl": "/images/thumbnails/investment-analyzer.svg",
+      "imageUrls": ["/images/thumbnails/investment-analyzer.svg"],
       "technologies": [
-        {
-          "id": "sql",
-          "name": "SQL",
-          "color": "#336791",
-          "icon": "🗃️",
-          "category": "database"
-        },
-        {
-          "id": "quicksuite",
-          "name": "Quicksuite",
-          "color": "#F2C811",
-          "icon": "📈",
-          "category": "visualization"
-        },
-        {
-          "id": "excel",
-          "name": "Excel/VBA",
-          "color": "#217346",
-          "icon": "📊",
-          "category": "analytics"
-        },
-        {
-          "id": "redshift",
-          "name": "Redshift",
-          "color": "#29B5E8",
-          "icon": "❄️",
-          "category": "database"
-        }
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "quicksight", "name": "QuickSight", "color": "#E97627", "icon": "📊", "category": "visualization" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" }
       ],
-      "category": {
-        "id": "reporting",
-        "name": "Marketing Reporting",
-        "description": "Marketing analysis and reporting systems",
-        "order": 3
-      }
-    {
-      "id": "operational-excellence-dashboard",
-      "title": "Operational Excellence Dashboard",
-      "description": "Real-time operational metrics dashboard tracking SLAs, performance, and efficiency KPIs",
-      "longDescription": "Created a comprehensive operational excellence dashboard monitoring key business processes and SLAs. Built automated data collection from multiple systems, real-time alerting for SLA breaches, and trend analysis for operational improvements. Implemented process efficiency metrics, resource utilization tracking, and predictive analytics for capacity planning. Helped reduce operational incidents by 40% and improved SLA compliance to 99.5%.",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=450&fit=crop",
-      "imageUrls": [
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop"
-      ],
-      "technologies": [
-        {
-          "id": "tableau",
-          "name": "Tableau",
-          "color": "#E97627",
-          "icon": "📊",
-          "category": "visualization"
-        },
-        {
-          "id": "sql",
-          "name": "SQL",
-          "color": "#336791",
-          "icon": "🗃️",
-          "category": "database"
-        },
-        {
-          "id": "python",
-          "name": "Python",
-          "color": "#3776AB",
-          "icon": "🐍",
-          "category": "analytics"
-        },
-        {
-          "id": "grafana",
-          "name": "Grafana",
-          "color": "#F46800",
-          "icon": "📈",
-          "category": "monitoring"
-        }
-      ],
-      "category": {
-        "id": "operations",
-        "name": "Operational Excellence",
-        "description": "Operational metrics and process improvement projects",
-        "order": 4
-      },
-      "demoUrl": "https://ops-dashboard.example.com",
-      "sourceUrl": "https://github.com/user/ops-excellence",
+      "category": { "id": "analytics", "name": "Analytics & Classification", "description": "Data classification, segmentation, and analytical modeling", "order": 2 },
       "featured": true,
-      "createdAt": "2023-08-05T00:00:00.000Z",
-      "updatedAt": "2023-11-30T00:00:00.000Z",
+      "createdAt": "2024-09-15T00:00:00.000Z",
+      "updatedAt": "2025-02-01T00:00:00.000Z",
       "status": "active"
     },
     {
-      "id": "data-warehouse-optimization",
-      "title": "Data Warehouse Performance Optimization",
-      "description": "Optimized data warehouse queries reducing runtime by 80% and improving dashboard performance",
-      "longDescription": "Led a comprehensive data warehouse optimization project focusing on query performance, indexing strategies, and data modeling improvements. Analyzed slow-running queries, implemented partitioning strategies, and redesigned dimensional models for better performance. Created automated monitoring for query performance and established best practices for SQL development. Achieved 80% reduction in average query runtime and improved dashboard load times from 2 minutes to 15 seconds.",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=450&fit=crop",
-      "imageUrls": [
-        "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=675&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop"
-      ],
+      "id": "incrementality-measurement",
+      "title": "Incrementality Measurement — Treatment/Control Framework",
+      "description": "Quasi-experimental framework that greenlit reallocation of $XX million in channel spend",
+      "longDescription": "Designed and executed an incrementality study to measure causal program impact by constructing treatment and control cohorts from targeted vs. non-targeted domains and accounts. Defined holdout groups, established baseline metrics, and calculated lift by comparing conversion rates and pipeline outcomes between cohorts. The results were used to greenlight the reallocation of $XX million in spend from underperforming channels to higher-converting ones. Performed entity resolution to link records across disparate ID systems, improving match rates to near-complete coverage to ensure statistical validity of the treatment/control comparison. Delivered reporting tables with cohort-level breakdowns feeding self-service BI dashboards for ongoing program evaluation.",
+      "thumbnailUrl": "/images/thumbnails/incrementality-measurement.svg",
+      "imageUrls": ["/images/thumbnails/incrementality-measurement.svg"],
       "technologies": [
-        {
-          "id": "sql",
-          "name": "SQL",
-          "color": "#336791",
-          "icon": "🗃️",
-          "category": "database"
-        },
-        {
-          "id": "snowflake",
-          "name": "Snowflake",
-          "color": "#29B5E8",
-          "icon": "❄️",
-          "category": "database"
-        },
-        {
-          "id": "dbt",
-          "name": "dbt",
-          "color": "#FF694B",
-          "icon": "🔧",
-          "category": "transformation"
-        },
-        {
-          "id": "python",
-          "name": "Python",
-          "color": "#3776AB",
-          "icon": "🐍",
-          "category": "analytics"
-        }
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+        { "id": "quicksight", "name": "QuickSight", "color": "#E97627", "icon": "📊", "category": "visualization" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" }
       ],
-      "category": {
-        "id": "optimization",
-        "name": "Performance Optimization",
-        "description": "Database and query optimization projects",
-        "order": 5
-      },
-      "sourceUrl": "https://github.com/user/dw-optimization",
+      "category": { "id": "measurement", "name": "Measurement & Experimentation", "description": "Causal inference, A/B testing, and incrementality studies", "order": 3 },
+      "featured": true,
+      "createdAt": "2024-08-01T00:00:00.000Z",
+      "updatedAt": "2024-12-15T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ad-spend-deduplication",
+      "title": "Ad Spend Deduplication — Data Quality & Statistical Correction",
+      "description": "Identified systematic metric inflation and implemented window-function deduplication",
+      "longDescription": "Identified systematic data duplication inflating metrics through exploratory data analysis. Implemented a proportional distribution algorithm using SQL window functions (PARTITION BY / ROW_NUMBER) to deduplicate records while preserving metric integrity across creative units.",
+      "thumbnailUrl": "/images/thumbnails/ad-spend-deduplication.svg",
+      "imageUrls": ["/images/thumbnails/ad-spend-deduplication.svg"],
+      "technologies": [
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" }
+      ],
+      "category": { "id": "data-quality", "name": "Data Quality", "description": "Data validation, deduplication, and quality assurance", "order": 4 },
+      "featured": true,
+      "createdAt": "2024-07-01T00:00:00.000Z",
+      "updatedAt": "2024-11-01T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "etl-migration-job-creator",
+      "title": "ETL Migration Job Creator Script",
+      "description": "CLI tool auto-generating YAML, SQL, and DAGs for Airflow migration — adopted by 20+ engineers",
+      "longDescription": "Built a CLI/script tool that automates the migration of ETL job profiles from a legacy scheduling platform to Apache Airflow. The script auto-generates YAML configs, SQL transformations, and DAG definitions while minimizing dependency resolution overhead. Reduced per-profile migration time significantly. Adopted by 20+ engineers across the team with hundreds of profiles migrated.",
+      "thumbnailUrl": "/images/thumbnails/etl-migration-job-creator.svg",
+      "imageUrls": ["/images/thumbnails/etl-migration-job-creator.svg"],
+      "technologies": [
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+        { "id": "airflow", "name": "Apache Airflow", "color": "#017CEE", "icon": "🌊", "category": "pipeline" },
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "yaml", "name": "YAML", "color": "#CB171E", "icon": "📄", "category": "config" }
+      ],
+      "category": { "id": "tooling", "name": "Developer Tooling", "description": "Internal tools, scripts, and automation for engineering productivity", "order": 5 },
+      "featured": true,
+      "createdAt": "2024-11-01T00:00:00.000Z",
+      "updatedAt": "2025-03-01T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "anomaly-detection-dashboard",
+      "title": "Statistical Anomaly Detection Dashboard",
+      "description": "3σ anomaly detection across KPIs reducing incident detection from days to near-real-time",
+      "longDescription": "Implemented automated anomaly detection using 3-standard-deviation thresholds across multiple KPIs and customer segments. Built daily snapshot pipelines with visual anomaly flagging and drill-down filtering. Reduced incident detection time from days to near-real-time.",
+      "thumbnailUrl": "/images/thumbnails/anomaly-detection-dashboard.svg",
+      "imageUrls": ["/images/thumbnails/anomaly-detection-dashboard.svg"],
+      "technologies": [
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "quicksight", "name": "QuickSight", "color": "#E97627", "icon": "📊", "category": "visualization" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" }
+      ],
+      "category": { "id": "dashboards", "name": "Dashboard & Visualization", "description": "Interactive dashboards and data visualization projects", "order": 6 },
+      "featured": true,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-03-01T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "infrastructure-audit",
+      "title": "Infrastructure Audit & Job Optimization",
+      "description": "Audited hundreds of ETL jobs, deprecated underutilized profiles, reclaimed significant compute",
+      "longDescription": "Audited hundreds of scheduled ETL job profiles across multiple schemas and owners. Applied usage analysis to identify and deprecate underutilized jobs, reclaiming significant daily compute hours. Built a centralized metadata catalog for job discovery and migration planning.",
+      "thumbnailUrl": "/images/thumbnails/infrastructure-audit.svg",
+      "imageUrls": ["/images/thumbnails/infrastructure-audit.svg"],
+      "technologies": [
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+        { "id": "aws", "name": "AWS", "color": "#FF9900", "icon": "☁️", "category": "cloud" }
+      ],
+      "category": { "id": "optimization", "name": "Performance Optimization", "description": "Infrastructure optimization and cost reduction", "order": 7 },
       "featured": false,
-      "createdAt": "2023-06-12T00:00:00.000Z",
-      "updatedAt": "2023-10-20T00:00:00.000Z",
+      "createdAt": "2024-05-01T00:00:00.000Z",
+      "updatedAt": "2024-09-01T00:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "warehouse-migration",
+      "title": "Data Warehouse Migration & Technical Debt Reduction",
+      "description": "Deprecated nearly half of ETL profiles, reclaimed significant daily compute, onboarded 20+ engineers",
+      "longDescription": "Audited ETL profiles for a major warehouse platform migration, deprecating nearly half of running profiles and reclaiming significant daily cluster compute. Performed end-to-end CI/CD pipeline testing for the new platform. Developed training frameworks that compressed onboarding from days to hours for 20+ engineers.",
+      "thumbnailUrl": "/images/thumbnails/warehouse-migration.svg",
+      "imageUrls": ["/images/thumbnails/warehouse-migration.svg"],
+      "technologies": [
+        { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+        { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+        { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+        { "id": "aws", "name": "AWS", "color": "#FF9900", "icon": "☁️", "category": "cloud" }
+      ],
+      "category": { "id": "optimization", "name": "Performance Optimization", "description": "Infrastructure optimization and cost reduction", "order": 7 },
+      "featured": false,
+      "createdAt": "2024-04-01T00:00:00.000Z",
+      "updatedAt": "2024-08-01T00:00:00.000Z",
       "status": "active"
     }
   ],
   "categories": [
-    {
-      "id": "dashboards",
-      "name": "Dashboard & Visualization",
-      "description": "Interactive dashboards and data visualization projects",
-      "order": 1
-    },
-    {
-      "id": "pipelines",
-      "name": "Data Pipelines",
-      "description": "ETL/ELT pipelines and data engineering projects",
-      "order": 2
-    },
-    {
-      "id": "reporting",
-      "name": "Financial Reporting",
-      "description": "Financial analysis and reporting systems",
-      "order": 3
-    },
-    {
-      "id": "operations",
-      "name": "Operational Excellence",
-      "description": "Operational metrics and process improvement projects",
-      "order": 4
-    },
-    {
-      "id": "optimization",
-      "name": "Performance Optimization",
-      "description": "Database and query optimization projects",
-      "order": 5
-    }
+    { "id": "pipelines", "name": "Data Pipelines", "description": "ETL/ELT pipelines and data engineering projects", "order": 1 },
+    { "id": "analytics", "name": "Analytics & Classification", "description": "Data classification, segmentation, and analytical modeling", "order": 2 },
+    { "id": "measurement", "name": "Measurement & Experimentation", "description": "Causal inference, A/B testing, and incrementality studies", "order": 3 },
+    { "id": "data-quality", "name": "Data Quality", "description": "Data validation, deduplication, and quality assurance", "order": 4 },
+    { "id": "tooling", "name": "Developer Tooling", "description": "Internal tools, scripts, and automation for engineering productivity", "order": 5 },
+    { "id": "dashboards", "name": "Dashboard & Visualization", "description": "Interactive dashboards and data visualization projects", "order": 6 },
+    { "id": "optimization", "name": "Performance Optimization", "description": "Infrastructure optimization and cost reduction", "order": 7 }
   ],
   "technologies": [
-    {
-      "id": "sql",
-      "name": "SQL",
-      "color": "#336791",
-      "icon": "🗃️",
-      "category": "database"
-    },
-    {
-      "id": "python",
-      "name": "Python",
-      "color": "#3776AB",
-      "icon": "🐍",
-      "category": "analytics"
-    },
-    {
-      "id": "tableau",
-      "name": "Tableau",
-      "color": "#E97627",
-      "icon": "📊",
-      "category": "visualization"
-    },
-    {
-      "id": "powerbi",
-      "name": "Power BI",
-      "color": "#F2C811",
-      "icon": "📈",
-      "category": "visualization"
-    },
-    {
-      "id": "postgresql",
-      "name": "PostgreSQL",
-      "color": "#336791",
-      "icon": "🐘",
-      "category": "database"
-    },
-    {
-      "id": "snowflake",
-      "name": "Snowflake",
-      "color": "#29B5E8",
-      "icon": "❄️",
-      "category": "database"
-    },
-    {
-      "id": "airflow",
-      "name": "Apache Airflow",
-      "color": "#017CEE",
-      "icon": "🌊",
-      "category": "pipeline"
-    },
-    {
-      "id": "dbt",
-      "name": "dbt",
-      "color": "#FF694B",
-      "icon": "🔧",
-      "category": "transformation"
-    },
-    {
-      "id": "aws",
-      "name": "AWS",
-      "color": "#FF9900",
-      "icon": "☁️",
-      "category": "cloud"
-    },
-    {
-      "id": "excel",
-      "name": "Excel/VBA",
-      "color": "#217346",
-      "icon": "📊",
-      "category": "analytics"
-    },
-    {
-      "id": "grafana",
-      "name": "Grafana",
-      "color": "#F46800",
-      "icon": "📈",
-      "category": "monitoring"
-    }
+    { "id": "sql", "name": "SQL", "color": "#336791", "icon": "🗃️", "category": "database" },
+    { "id": "python", "name": "Python", "color": "#3776AB", "icon": "🐍", "category": "analytics" },
+    { "id": "redshift", "name": "Redshift", "color": "#336791", "icon": "🐘", "category": "database" },
+    { "id": "quicksight", "name": "QuickSight", "color": "#E97627", "icon": "📊", "category": "visualization" },
+    { "id": "airflow", "name": "Apache Airflow", "color": "#017CEE", "icon": "🌊", "category": "pipeline" },
+    { "id": "aws", "name": "AWS", "color": "#FF9900", "icon": "☁️", "category": "cloud" },
+    { "id": "yaml", "name": "YAML", "color": "#CB171E", "icon": "📄", "category": "config" }
   ]
 }

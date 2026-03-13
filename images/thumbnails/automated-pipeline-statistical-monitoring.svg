@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg1)"/>
+
+  <!-- INGEST - Database icon -->
+  <rect x="80" y="160" width="120" height="80" rx="8" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+  <ellipse cx="140" cy="185" rx="30" ry="10" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <line x1="110" y1="185" x2="110" y2="210" stroke="#e94560" stroke-width="1.5"/>
+  <line x1="170" y1="185" x2="170" y2="210" stroke="#e94560" stroke-width="1.5"/>
+  <ellipse cx="140" cy="210" rx="30" ry="10" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <text x="140" y="250" text-anchor="middle" fill="#e94560" font-size="11" font-family="monospace">INGEST</text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="200" x2="255" y2="200" stroke="#533483" stroke-width="2"/>
+  <polygon points="250,195 260,200 250,205" fill="#533483"/>
+
+  <!-- TRANSFORM - Python icon (curly braces) -->
+  <rect x="260" y="160" width="120" height="80" rx="8" fill="#0f3460" stroke="#533483" stroke-width="2"/>
+  <text x="320" y="200" text-anchor="middle" fill="#533483" font-size="28" font-family="monospace" font-weight="bold">{ }</text>
+  <text x="320" y="215" text-anchor="middle" fill="#533483" font-size="9" font-family="monospace">py</text>
+  <text x="320" y="250" text-anchor="middle" fill="#533483" font-size="11" font-family="monospace">TRANSFORM</text>
+
+  <!-- Arrow 2 -->
+  <line x1="380" y1="200" x2="435" y2="200" stroke="#533483" stroke-width="2"/>
+  <polygon points="430,195 440,200 430,205" fill="#533483"/>
+
+  <!-- LOAD - ETL arrows icon -->
+  <rect x="440" y="160" width="120" height="80" rx="8" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+  <text x="500" y="195" text-anchor="middle" fill="#e94560" font-size="20" font-family="sans-serif">⇄</text>
+  <text x="500" y="212" text-anchor="middle" fill="#e94560" font-size="9" font-family="monospace">ETL</text>
+  <text x="500" y="250" text-anchor="middle" fill="#e94560" font-size="11" font-family="monospace">LOAD</text>
+
+  <!-- Arrow 3 -->
+  <line x1="560" y1="200" x2="615" y2="200" stroke="#533483" stroke-width="2"/>
+  <polygon points="610,195 620,200 610,205" fill="#533483"/>
+
+  <!-- MONITOR - Dashboard icon -->
+  <rect x="620" y="160" width="120" height="80" rx="8" fill="#0f3460" stroke="#00d2ff" stroke-width="2"/>
+  <rect x="645" y="178" width="70" height="40" rx="3" fill="none" stroke="#00d2ff" stroke-width="1.2"/>
+  <polyline points="652,208 662,198 672,205 682,190 692,200 702,195 708,202" fill="none" stroke="#00d2ff" stroke-width="1.2"/>
+  <text x="680" y="250" text-anchor="middle" fill="#00d2ff" font-size="11" font-family="monospace">MONITOR</text>
+
+  <!-- Anomaly detection wave -->
+  <polyline points="100,330 150,315 200,335 250,305 300,345 350,275 400,330 450,300 500,340 550,285 600,325 650,305 700,330" fill="none" stroke="#e94560" stroke-width="2" opacity="0.6"/>
+  <line x1="100" y1="275" x2="700" y2="275" stroke="#00d2ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#00d2ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <text x="720" y="279" fill="#00d2ff" font-size="10" font-family="monospace" opacity="0.6">+3σ</text>
+  <text x="720" y="354" fill="#00d2ff" font-size="10" font-family="monospace" opacity="0.6">-3σ</text>
+
+  <!-- Alarm bell icons -->
+  <circle cx="350" cy="275" r="8" fill="#e94560" opacity="0.9"/>
+  <text x="350" y="279" text-anchor="middle" fill="#fff" font-size="10">🔔</text>
+  <circle cx="550" cy="285" r="8" fill="#e94560" opacity="0.9"/>
+  <text x="550" y="289" text-anchor="middle" fill="#fff" font-size="10">🔔</text>
+
+  <!-- Alarm label -->
+  <rect x="300" y="380" width="200" height="30" rx="6" fill="#0f3460" stroke="#e94560" stroke-width="1"/>
+  <text x="400" y="400" text-anchor="middle" fill="#e94560" font-size="12" font-family="monospace">Automated Alerting</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-size="22" font-family="sans-serif" font-weight="bold">Automated Data Pipeline</text>
+  <text x="400" y="78" text-anchor="middle" fill="#e94560" font-size="14" font-family="monospace">Statistical Monitoring · CDC · Alerting</text>
+</svg>
